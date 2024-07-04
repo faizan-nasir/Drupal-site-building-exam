@@ -1,0 +1,11 @@
+uuid: f6421371-d72b-48cd-9967-936266394f88
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.items_view_mode_new
+label: 'Items View Mode NEW'
+description: ''
+targetEntityType: paragraph
+cache: true

@@ -1,0 +1,20 @@
+uuid: e188ad83-de03-418a-a8b0-07727955b1f4
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.taxonomy_term.full
+    - taxonomy.vocabulary.category1
+  module:
+    - layout_builder
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: taxonomy_term.category1.full
+targetEntityType: taxonomy_term
+bundle: category1
+mode: full
+content: {  }
+hidden:
+  description: true

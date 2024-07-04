@@ -1,0 +1,8 @@
+uuid: 89902f94-6fe6-49b4-94c3-9ff9d019f88f
+langcode: en
+status: true
+dependencies: {  }
+id: new-menu
+label: 'new menu'
+description: ''
+locked: false

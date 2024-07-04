@@ -1,0 +1,9 @@
+uuid: e1a8ed71-1a48-4504-aef1-cc3a174a8da0
+langcode: en
+status: true
+dependencies: {  }
+name: Category1
+vid: category1
+description: 'Categories for content admin 1'
+weight: 0
+new_revision: false
