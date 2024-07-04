@@ -1,0 +1,15 @@
+adding:
+  dependencies:
+    config:
+      - field.field.node.webform.webform
+    module:
+      - webform
+  content:
+    webform:
+      weight: 102
+      label: hidden
+      settings: {  }
+      third_party_settings: {  }
+      type: webform_entity_reference_entity_view
+      region: content
+removing: {  }

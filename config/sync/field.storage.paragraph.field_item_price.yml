@@ -1,0 +1,18 @@
+uuid: eefdfe51-ea82-4494-b67c-8675b8acfee3
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_item_price
+field_name: field_item_price
+entity_type: paragraph
+type: float
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

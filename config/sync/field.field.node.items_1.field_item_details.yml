@@ -1,0 +1,31 @@
+uuid: 2cafa1e7-1469-4508-8071-52a18d255cc4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_item_details
+    - node.type.items_1
+    - paragraphs.paragraphs_type.item
+  module:
+    - entity_reference_revisions
+id: node.items_1.field_item_details
+field_name: field_item_details
+entity_type: node
+bundle: items_1
+label: 'Item Details'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      item: item
+    negate: 0
+    target_bundles_drag_drop:
+      item:
+        weight: 2
+        enabled: true
+field_type: entity_reference_revisions

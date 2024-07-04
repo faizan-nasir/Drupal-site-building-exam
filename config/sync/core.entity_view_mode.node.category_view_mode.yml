@@ -1,0 +1,11 @@
+uuid: 86d43c74-c0e6-4042-aa78-542d80941c8e
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.category_view_mode
+label: 'Category View Mode'
+description: ''
+targetEntityType: node
+cache: true

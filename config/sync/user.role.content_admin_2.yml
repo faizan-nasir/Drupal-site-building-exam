@@ -1,0 +1,18 @@
+uuid: e7654b2c-ddb9-43ca-8c4b-1bad5a415b45
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.items_2
+  module:
+    - node
+    - toolbar
+id: content_admin_2
+label: 'Content admin 2'
+weight: 5
+is_admin: null
+permissions:
+  - 'access toolbar'
+  - 'create items_2 content'
+  - 'edit own items_2 content'
+  - 'view items_2 revisions'

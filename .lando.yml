@@ -1,0 +1,6 @@
+name: local-employee-management-portal
+recipe: drupal10
+config:
+  webroot: web
+  php: "8.1"
+  via: nginx

@@ -1,0 +1,26 @@
+uuid: 82ece4d7-653d-4eb6-82d5-0b5660a986f9
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.items_3.field_category_of_items
+    - field.field.node.items_3.field_item_details
+    - field.field.node.items_3.field_name
+    - node.type.items_3
+  module:
+    - user
+id: node.items_3.teaser
+targetEntityType: node
+bundle: items_3
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_category_of_items: true
+  field_item_details: true
+  field_name: true

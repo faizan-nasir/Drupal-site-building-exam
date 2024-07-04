@@ -1,0 +1,23 @@
+uuid: 4816f820-2cd9-4c0d-a955-bcd0853a5e23
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_item_price
+    - paragraphs.paragraphs_type.item
+id: paragraph.item.field_item_price
+field_name: field_item_price
+entity_type: paragraph
+bundle: item
+label: 'Item Price'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 5.0
+  max: 1000000.0
+  prefix: ₹
+  suffix: ' INR'
+field_type: float

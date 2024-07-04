@@ -1,0 +1,22 @@
+uuid: 3c595f43-a5f5-4adf-a555-1f6dd6bb3311
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: items3_pattern
+label: 'Items3 Pattern'
+type: 'canonical_entities:node'
+pattern: '/[node:field_category_of_items]/[node:field_name]'
+selection_criteria:
+  1ac8532f-ff87-4882-b961-b1f1a7699674:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 1ac8532f-ff87-4882-b961-b1f1a7699674
+    context_mapping:
+      node: node
+    bundles:
+      items_3: items_3
+selection_logic: and
+weight: -5
+relationships: {  }

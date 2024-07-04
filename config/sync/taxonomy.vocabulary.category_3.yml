@@ -1,0 +1,9 @@
+uuid: 32cbbae9-3c46-4bbb-b152-af45b60d2f09
+langcode: en
+status: true
+dependencies: {  }
+name: 'Category 3'
+vid: category_3
+description: null
+weight: 0
+new_revision: false
